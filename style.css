@@ -464,30 +464,6 @@ section { padding: 5rem 0; }
 .team-alumni-current { color: var(--text-muted); }
 
 /* ════════════════════════════════════════════════════════════════
-   AWARDS
-   ════════════════════════════════════════════════════════════════ */
-.awards-list { display: flex; flex-direction: column; gap: 0; }
-.award-item {
-  display: grid;
-  grid-template-columns: 3.5rem 1fr;
-  gap: 1.25rem;
-  align-items: start;
-  padding: 1.25rem 0;
-  border-bottom: 1px solid var(--border);
-}
-.award-item:first-child { border-top: 1px solid var(--border); }
-.award-year {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1rem;
-  font-weight: 500;
-  color: var(--orange);
-  padding-top: 2px;
-}
-.award-title { font-weight: 600; font-size: 0.95rem; line-height: 1.45; margin-bottom: 2px; }
-.award-recipient { font-size: 0.83rem; color: var(--text-muted); margin-bottom: 2px; }
-.award-body { font-size: 0.83rem; color: var(--text-muted); font-style: italic; }
-
-/* ════════════════════════════════════════════════════════════════
     NEWS
     ════════════════════════════════════════════════════════════════ */
 #news { background: var(--bg-card); }
