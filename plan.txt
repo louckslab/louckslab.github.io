@@ -1,0 +1,9 @@
+Website making - 2 steps
+
+1. Website directory (a folder in a computer)
+    - Contains index.html (the pain page you see when you access the website using a web browser)
+    - Other files (e.g., images for team members) that the index.html can access
+
+2. Publishing the lab website
+    - BCCHR IT could help?
+    - If not, can use Github Pages
