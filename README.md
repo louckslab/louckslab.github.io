@@ -2,10 +2,6 @@
 
 Website for the Loucks Pain Management Pharmacogenomics Lab at BC Children's Hospital Research Institute.
 
-## Stack
-
-Plain HTML + CSS — no build tools, no JavaScript, no server dependencies.
-
 ## Pages
 
 | Page | Description |
@@ -16,10 +12,6 @@ Plain HTML + CSS — no build tools, no JavaScript, no server dependencies.
 | `implementation.html` | Implementation research pipeline |
 | `awards.html` | Lab awards and honours |
 | `all_publications.html` | Full publication list |
-
-## Viewing
-
-Open any `.html` file in a browser directly — no dev server required.
 
 ## Structure
 
@@ -36,7 +28,3 @@ Open any `.html` file in a browser directly — no dev server required.
 │   └── Funders/       # Logo images
 └── reference htmls/   # Reference material
 ```
-
-## Deployment
-
-Planned — GitHub Pages or BCCHR IT.
