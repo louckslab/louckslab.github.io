@@ -50,7 +50,8 @@
           <em>better pain management</em>
         </h1>
         <p class="hero-desc">
-          We study how genetic variation shapes pain treatment response. By integrating
+          Severe pain during childhood has lasting effects on the development of a child. This is why
+          we study how genetic variation shapes pain treatment response. By integrating
           pharmacology, whole genome analysis, <em>C. elegans</em> functional validation, and deep patient
           partnership, we work toward personalized pain management that is safer and
           more effective for every child.
@@ -75,13 +76,15 @@
 </section>
 
 <!-- ════════════════════════════════════════════════════════════════════
-     RESEARCH  —  Discovery → Validation → Implementation pipeline
+     RESEARCH  —  progress bar with three stage columns
      ════════════════════════════════════════════════════════════════════ -->
-<section id="research">
+
+<section id="research" class="research">
   <div class="site-wrap">
-    <div class="section-head">
+ 
+    <div class="research-head">
       <div class="section-label">What We Study</div>
-      <h2 class="section-title">Our approach to the future of personalized pain management</h2>
+      <h2 class="section-title">Our approach to personalized pain management</h2>
       <p class="section-lead">
         Our work follows a <strong>Discovery → Validation → Implementation</strong>
         pipeline — from identifying genetic predictors of drug response and
@@ -89,41 +92,84 @@
         findings into clinical policy through patient partnership.
       </p>
     </div>
-
-    <div class="research-grid">
-
-      <!-- ── Card 1: Discovery ── -->
-      <a href="discovery.html" class="research-card">
-        <div class="research-icon">
-          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="2"/><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+ 
+    <!-- Vertical pipeline: one rail runs top to bottom, arrow points down -->
+    <div class="pipeline-col">
+ 
+      <article class="stage-row">
+        <div class="stage-marker"><div class="ring">1</div></div>
+        <div class="stage-content">
+          <div class="stage-text">
+            <div class="stage-eyebrow">Discovery</div>
+            <h3 class="stage-title">Identifying Genetic Predictors of Drug Response</h3>
+            <p class="stage-desc">Using cohort genomic studies, our team maps the DNA variations that cause children to have adverse reactions to opioid medications. 
+              Identification of the specific genetic cause lays the foundation for which the rest of the pipeline is built upon.</p>
+          </div>
+          <figure class="stage-figure">
+            <div class="stage-figure-visual">
+              <span class="placeholder-tag">Image placeholder</span>
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 6c8 6 12 12 12 18s-4 12-12 18"/>
+                <path d="M34 6c-8 6-12 12-12 18s4 12 12 18"/>
+                <line x1="16" y1="12" x2="32" y2="12"/>
+                <line x1="14" y1="18" x2="34" y2="18"/>
+                <line x1="14" y1="30" x2="34" y2="30"/>
+                <line x1="16" y1="36" x2="32" y2="36"/>
+              </svg>
+            </div>
+          </figure>
         </div>
-        <h3>Discovery</h3>
-        <p>Using cohort genomic studies, our team maps the DNA variations that cause children to have adverse reactions to opioid medications. We focus on identifying risks for common side effects — including pruritus, nausea, and allergic reactions — before treatment begins.</p>
-      </a>
-
-      <!-- ── Card 2: Validation ── -->
-      <a href="validation.html" class="research-card">
-        <div class="research-icon">
-          <svg viewBox="0 0 24 24"><circle cx="9" cy="7" r="4"/><path d="M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/><path d="M21 21v-2a4 4 0 0 0-3-3.87"/></svg>
+      </article>
+ 
+      <article class="stage-row">
+        <div class="stage-marker"><div class="ring">2</div></div>
+        <div class="stage-content">
+          <div class="stage-text">
+            <div class="stage-eyebrow">Validation</div>
+            <h3 class="stage-title">Replicating Results and Establishing Causal Evidence</h3>
+            <p class="stage-desc">We validate discoveries by replicating results in additional patient populations and performing functional testing in 
+              <em>C. elegans</em> to establish causal evidence linking genetic variants to drug responses.</p>
+          </div>
+          <figure class="stage-figure">
+            <div class="stage-figure-visual">
+              <span class="placeholder-tag">Image placeholder</span>
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 24c3-8 8-8 10-4s4 8 8 8 5-10 8-14 6-4 10 2"/>
+                <circle cx="10" cy="24" r="1.6" fill="currentColor" stroke="none"/>
+                <circle cx="38" cy="18" r="1.6" fill="currentColor" stroke="none"/>
+              </svg>
+            </div>
+          </figure>
         </div>
-        <h3>Validation</h3>
-        <p>We validate our discoveries by replicating results in additional patient populations and performing functional testing in <em>C. elegans</em> to establish causal evidence.</p>
-      </a>
-
-      <!-- ── Card 3: Implementation ── -->
-      <a href="implementation.html" class="research-card">
-        <div class="research-icon">
-          <svg viewBox="0 0 24 24"><rect x="3" y="10" width="4" height="11" rx="1"/><rect x="10" y="6" width="4" height="15" rx="1"/><rect x="17" y="3" width="4" height="18" rx="1"/></svg>
+      </article>
+ 
+      <article class="stage-row">
+        <div class="stage-marker"><div class="ring">3</div></div>
+        <div class="stage-content">
+          <div class="stage-text">
+            <div class="stage-eyebrow">Implementation</div>
+            <h3 class="stage-title">Translating Findings to Clinical Policy</h3>
+            <p class="stage-desc">Through our extensive involvement with patient partners and the Canadian Pharmacogenomics Network for Drug Safety (CPNDS), we aim to bring genetic findings 
+              to the clinic — shaping clinician guidelines and regulatory policy for safer, personalized pain management.</p>
+          </div>
+          <figure class="stage-figure">
+            <div class="stage-figure-visual">
+              <span class="placeholder-tag">Image placeholder</span>
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="12" y="6" width="24" height="36" rx="2"/>
+                <path d="M18 6v-2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2"/>
+                <path d="M17 22l5 5 9-10"/>
+                <line x1="17" y1="34" x2="31" y2="34"/>
+              </svg>
+            </div>
+          </figure>
         </div>
-        <h3>Implementation</h3>
-        <p>Through our involvement in the Canadian Pharmacogenomics Network for Drug Safety (CPNDS), we bring genetic findings to the clinic — shaping clinician guidelines and regulatory policy for safer, personalized pain management.</p>
-      </a>
-
+      </article>
+ 
     </div>
-
-    <p class="research-prompt">— Click on each stage of the pipeline to learn more —</p>
   </div>
 </section>
+
 
 <!-- ════════════════════════════════════════════════════════════════════
      PUBLICATIONS  —  selected publications from Loucks Lab
