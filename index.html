@@ -107,7 +107,7 @@
           </div>
           <figure class="stage-figure">
             <div class="stage-figure-visual">
-              <img src="images/Figures/discovery.png" alt="discovery figure" />
+              <img src="images/Figures/discovery-transparent.png" alt="discovery figure" />
             </div>
             <figcaption>Created with BioRender.com</figcaption>
           </figure>
@@ -127,14 +127,86 @@
           </div>
           <figure class="stage-figure">
             <div class="stage-figure-visual">
-              <span class="placeholder-tag">Image placeholder</span>
-              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M6 24c3-8 8-8 10-4s4 8 8 8 5-10 8-14 6-4 10 2"/>
-                <circle cx="10" cy="24" r="1.6" fill="currentColor" stroke="none"/>
-                <circle cx="38" cy="18" r="1.6" fill="currentColor" stroke="none"/>
+              <svg viewBox="0 0 640 480" width="100%" height="100%" role="img" aria-labelledby="valFigTitle valFigDesc">
+                <title id="valFigTitle">Replicating findings and establishing causal evidence</title>
+                <desc id="valFigDesc">A candidate genetic variant is tested in an independent cohort of children and through functional assays in C. elegans. Both lines of evidence converge on causal evidence linking the variant to pain treatment response.</desc>
+          
+                <defs>
+                  <marker id="arrowhead" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                    <path d="M1,1 L9,5 L1,9 Z" fill="#8B9490"/>
+                  </marker>
+                </defs>
+          
+                <style>
+                  text { font-family: 'Karla', 'Helvetica Neue', Arial, sans-serif; fill: #1C2521; }
+                  .title   { font-size: 16px; font-weight: 700; }
+                  .subtle  { font-size: 12.5px; fill: #5B665F; }
+                  .connector { fill: none; stroke: #8B9490; stroke-width: 1.6; }
+                </style>
+          
+                <g transform="translate(320,72)">
+                  <path d="M-16,-32 C-16,-16 16,-16 16,0 C16,16 -16,16 -16,32" fill="none" stroke="#2F6E68" stroke-width="3.4" stroke-linecap="round"/>
+                  <path d="M16,-32 C16,-16 -16,-16 -16,0 C-16,16 16,16 16,32" fill="none" stroke="#7FBDB5" stroke-width="3.4" stroke-linecap="round"/>
+                  <line x1="-12" y1="-24" x2="12" y2="-24" stroke="#B7DAD5" stroke-width="3"/>
+                  <line x1="-15" y1="-8"  x2="15" y2="-8"  stroke="#B7DAD5" stroke-width="3"/>
+                  <line x1="-15" y1="8"   x2="15" y2="8"   stroke="#B7DAD5" stroke-width="3"/>
+                  <line x1="-12" y1="24"  x2="12" y2="24"  stroke="#B7DAD5" stroke-width="3"/>
+                </g>
+                <text class="title" x="320" y="128" text-anchor="middle">Candidate variant</text>
+          
+                <path class="connector" d="M292,138 C245,162 205,172 178,198" marker-end="url(#arrowhead)"/>
+                <path class="connector" d="M348,138 C395,162 435,172 462,198" marker-end="url(#arrowhead)"/>
+          
+                <g transform="translate(178,255)">
+                  <g fill="#B7DAD5">
+                    <circle cx="-58" cy="-38" r="11"/>
+                    <path d="M-75,-22 Q-58,-38 -41,-22 L-38,20 L-78,20 Z"/>
+                  </g>
+                  <g fill="#7FBDB5">
+                    <circle cx="-20" cy="-45" r="12"/>
+                    <path d="M-38,-27 Q-20,-45 -2,-27 L1,24 L-41,24 Z"/>
+                  </g>
+                  <g fill="#2F6E68">
+                    <circle cx="22" cy="-40" r="12"/>
+                    <path d="M4,-22 Q22,-40 40,-22 L43,26 L1,26 Z"/>
+                  </g>
+                  <g fill="#4C948C">
+                    <circle cx="60" cy="-43" r="11"/>
+                    <path d="M44,-27 Q60,-43 76,-27 L79,22 L41,22 Z"/>
+                  </g>
+                </g>
+                <text class="title"  x="178" y="335" text-anchor="middle">Independent cohort</text>
+          
+                <g transform="translate(178,372)">
+                  <circle r="11" fill="#E7EFED" stroke="#2F6E68" stroke-width="1.4"/>
+                  <path d="M-5,0 L-1.5,4 L5,-4" fill="none" stroke="#2F6E68" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+          
+                <g transform="translate(462,255)">
+                  <path d="M-62,10 C-42,-24 -10,26 20,-10 C46,-36 66,-4 56,20"
+                        fill="none" stroke="#C97A2E" stroke-width="7" stroke-linecap="round"/>
+                  <circle cx="-62" cy="10" r="4.5" fill="#8A5620"/>
+                  <ellipse cx="0" cy="46" rx="72" ry="10" fill="none" stroke="#D8DED6" stroke-width="1.6"/>
+                </g>
+                <text class="title"  x="462" y="335" text-anchor="middle">C. elegans assay</text>
+          
+                <g transform="translate(462,372)">
+                  <circle r="11" fill="#FBEEE0" stroke="#C97A2E" stroke-width="1.4"/>
+                  <path d="M-5,0 L-1.5,4 L5,-4" fill="none" stroke="#C97A2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+          
+                <path class="connector" d="M178,388 C210,412 265,424 300,430" marker-end="url(#arrowhead)"/>
+                <path class="connector" d="M462,388 C428,412 375,424 342,430" marker-end="url(#arrowhead)"/>
+          
+                <g transform="translate(320,432)">
+                  <circle r="20" fill="#2F6E68"/>
+                  <path d="M-9,0 L-3,7 L10,-8" fill="none" stroke="#F4F6F1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+                <text class="title" x="320" y="470" text-anchor="middle">Causal evidence</text>
               </svg>
             </div>
           </figure>
+
         </div>
       </article>
  
@@ -149,12 +221,24 @@
           </div>
           <figure class="stage-figure">
             <div class="stage-figure-visual">
-              <span class="placeholder-tag">Image placeholder</span>
-              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="12" y="6" width="24" height="36" rx="2"/>
-                <path d="M18 6v-2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2"/>
-                <path d="M17 22l5 5 9-10"/>
-                <line x1="17" y1="34" x2="31" y2="34"/>
+              <svg class="impl-svg" viewBox="0 0 120 150" width="100%" height="100%" role="img" aria-label="Clinical guideline document with checkmark">
+                <!-- page body -->
+                <rect x="18" y="10" width="84" height="104" rx="7"
+                      fill="#E7EFED" stroke="#2F6E68" stroke-width="2"/>
+                <!-- folded corner -->
+                <path d="M82,10 L102,30" fill="none" stroke="#2F6E68" stroke-width="2"/>
+                <path d="M82,10 L82,30 L102,30" fill="#F4F6F1" stroke="#2F6E68" stroke-width="1.5"/>
+                <!-- heading line (teal, bold) -->
+                <line x1="32" y1="46" x2="70" y2="46" stroke="#2F6E68" stroke-width="3" stroke-linecap="round"/>
+                <!-- body lines (muted) -->
+                <line x1="32" y1="60" x2="80" y2="60" stroke="#B7DAD5" stroke-width="2" stroke-linecap="round"/>
+                <line x1="32" y1="72" x2="74" y2="72" stroke="#B7DAD5" stroke-width="2" stroke-linecap="round"/>
+                <line x1="32" y1="84" x2="66" y2="84" stroke="#B7DAD5" stroke-width="2" stroke-linecap="round"/>
+                <!-- checkmark circle -->
+                <circle cx="60" cy="131" r="17" fill="#2F6E68"/>
+                <path d="M52,131 L58,138 L69,123"
+                      fill="none" stroke="white" stroke-width="3"
+                      stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
             </div>
           </figure>
