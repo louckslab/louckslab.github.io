@@ -704,6 +704,57 @@ section { padding: 5rem 0; }
   color: var(--text-muted);
 }
 
+/* ── Patient Partners with Lived Experiences ── */
+#patient-partners { padding-top: 0; }
+.pp-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.pp-card {
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+}
+.pp-card:last-child { border-bottom: none; }
+.pp-profile {
+  width: 220px;
+  flex-shrink: 0;
+}
+.pp-photo {
+  aspect-ratio: 1;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 0.75rem;
+  background: var(--navy-pale);
+}
+.pp-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.pp-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 2px;
+}
+.pp-titles {
+  font-size: 0.75rem;
+  font-style: italic;
+  color: var(--text-muted);
+}
+.pp-bio {
+  color: var(--text-muted);
+  max-width: 65ch;
+}
+.pp-bio p { margin-bottom: 1rem; }
+.pp-bio p:last-child { margin-bottom: 0; }
+
 /* ════════════════════════════════════════════════════════════════
     NEWS
     ════════════════════════════════════════════════════════════════ */
@@ -986,5 +1037,7 @@ footer {
   .stage-row { padding-bottom: 48px; }
   .team-pi { flex-direction: column; }
   .team-pi-photo { width: 100%; max-width: 320px; }
+  .pp-card { flex-direction: column; }
+  .pp-profile { width: 100%; max-width: 240px; }
   .nav-links { display: none; }
 }
